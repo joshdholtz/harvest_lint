@@ -1,0 +1,30 @@
+start_date: "05/01/2017"
+end_date: "05/08/2017"
+harvest:
+  #subdomain: your_subdomain
+  #username: your_username
+  #password: your_password
+  subdomain_env: HARVEST_SUBDOMAIN
+  username_env: HARVEST_USERNAME
+  password_env: HARVEST_PASSWORD
+reports:
+  #active_projects_without_budget: true
+  team:
+    - id: 278837 # J
+      low_hours: 10
+      high_hours: 30
+      no_notes: true
+    - id: 791123 # N
+      low_hours: 10
+      high_hours: 20
+      no_notes: true
+  clients:
+    - id: 3398576 # CS
+      low_hours: 10
+      high_hours: 30
+      no_notes: true
+  projects:
+    - id: 13342828 # EEI  
+      low_hours: 10
+      high_hours: 15
+      no_notes: false
